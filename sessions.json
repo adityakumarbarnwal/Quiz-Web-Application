@@ -1,0 +1,505 @@
+[
+  {
+    "answers": [
+      {
+        "id": 9,
+        "answered": true,
+        "correct": true,
+        "topic": "Environment"
+      },
+      {
+        "id": 13,
+        "answered": true,
+        "correct": false,
+        "topic": "Sports History"
+      },
+      {
+        "id": 17,
+        "answered": true,
+        "correct": false,
+        "topic": "Computer Networks"
+      },
+      {
+        "id": 16,
+        "answered": true,
+        "correct": true,
+        "topic": "World History"
+      },
+      {
+        "id": 8,
+        "answered": true,
+        "correct": false,
+        "topic": "Geography"
+      },
+      {
+        "id": 12,
+        "answered": true,
+        "correct": true,
+        "topic": "Mathematics"
+      },
+      {
+        "id": 2,
+        "answered": true,
+        "correct": false,
+        "topic": "Physics"
+      },
+      {
+        "id": 7,
+        "answered": true,
+        "correct": false,
+        "topic": "Computer Networks"
+      },
+      {
+        "id": 20,
+        "answered": true,
+        "correct": true,
+        "topic": "Operating Systems"
+      }
+    ],
+    "score": 4,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-26T07:27:12.586Z",
+    "finishedAt": "2025-09-26T07:27:41.766Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 12,
+        "answered": true,
+        "correct": false,
+        "topic": "Mathematics"
+      },
+      {
+        "id": 11,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      },
+      {
+        "id": 18,
+        "answered": true,
+        "correct": true,
+        "topic": "Chemistry"
+      },
+      {
+        "id": 17,
+        "answered": true,
+        "correct": true,
+        "topic": "Computer Networks"
+      },
+      {
+        "id": 14,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      },
+      {
+        "id": 8,
+        "answered": true,
+        "correct": true,
+        "topic": "Geography"
+      },
+      {
+        "id": 19,
+        "answered": true,
+        "correct": true,
+        "topic": "Philosophy"
+      },
+      {
+        "id": 7,
+        "answered": true,
+        "correct": false,
+        "topic": "Computer Networks"
+      }
+    ],
+    "score": 6,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-26T07:27:49.808Z",
+    "finishedAt": "2025-09-26T07:28:18.420Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 3,
+        "answered": true,
+        "correct": false,
+        "topic": "Biology"
+      },
+      {
+        "id": 11,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      },
+      {
+        "id": 2,
+        "answered": true,
+        "correct": false,
+        "topic": "Physics"
+      },
+      {
+        "id": 19,
+        "answered": true,
+        "correct": true,
+        "topic": "Philosophy"
+      },
+      {
+        "id": 17,
+        "answered": true,
+        "correct": true,
+        "topic": "Computer Networks"
+      },
+      {
+        "id": 9,
+        "answered": true,
+        "correct": true,
+        "topic": "Environment"
+      },
+      {
+        "id": 1,
+        "answered": true,
+        "correct": false,
+        "topic": "Computer Science"
+      },
+      {
+        "id": 13,
+        "answered": true,
+        "correct": false,
+        "topic": "Sports History"
+      },
+      {
+        "id": 20,
+        "answered": true,
+        "correct": true,
+        "topic": "Operating Systems"
+      }
+    ],
+    "score": 5,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-26T07:30:19.579Z",
+    "finishedAt": "2025-09-26T07:30:49.002Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 7,
+        "answered": true,
+        "correct": true,
+        "topic": "Computer Networks"
+      },
+      {
+        "id": 13,
+        "answered": true,
+        "correct": false,
+        "topic": "Sports History"
+      }
+    ],
+    "score": 1,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-26T07:32:49.308Z",
+    "finishedAt": "2025-09-26T07:32:59.617Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 10,
+        "answered": true,
+        "correct": false,
+        "topic": "Art"
+      },
+      {
+        "id": 9,
+        "answered": true,
+        "correct": true,
+        "topic": "Environment"
+      },
+      {
+        "id": 0,
+        "answered": true,
+        "correct": true,
+        "topic": "Computer Science"
+      },
+      {
+        "id": 6,
+        "answered": true,
+        "correct": false,
+        "topic": "Astronomy"
+      },
+      {
+        "id": 1,
+        "answered": true,
+        "correct": true,
+        "topic": "Computer Science"
+      },
+      {
+        "id": 15,
+        "answered": true,
+        "correct": true,
+        "topic": "Computer Science"
+      },
+      {
+        "id": 14,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      },
+      {
+        "id": 11,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      }
+    ],
+    "score": 6,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-26T07:44:15.466Z",
+    "finishedAt": "2025-09-26T07:44:42.046Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-26T07:45:10.554Z",
+    "finishedAt": "2025-09-26T07:45:15.051Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 16,
+        "answered": true,
+        "correct": true,
+        "topic": "World History"
+      },
+      {
+        "id": 12,
+        "answered": true,
+        "correct": false,
+        "topic": "Mathematics"
+      },
+      {
+        "id": 14,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      },
+      {
+        "id": 4,
+        "answered": true,
+        "correct": true,
+        "topic": "History"
+      }
+    ],
+    "score": 3,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-26T07:51:51.492Z",
+    "finishedAt": "2025-09-26T07:52:06.333Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 3,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 0,
+        "answered": true,
+        "correct": true,
+        "topic": "Computer Science"
+      },
+      {
+        "id": 9,
+        "answered": true,
+        "correct": true,
+        "topic": "Environment"
+      },
+      {
+        "id": 18,
+        "answered": true,
+        "correct": false,
+        "topic": "Chemistry"
+      },
+      {
+        "id": 6,
+        "answered": true,
+        "correct": true,
+        "topic": "Astronomy"
+      },
+      {
+        "id": 4,
+        "answered": true,
+        "correct": true,
+        "topic": "History"
+      },
+      {
+        "id": 17,
+        "answered": true,
+        "correct": true,
+        "topic": "Computer Networks"
+      },
+      {
+        "id": 14,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      },
+      {
+        "id": 15,
+        "answered": true,
+        "correct": false,
+        "topic": "Computer Science"
+      }
+    ],
+    "score": 7,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-26T07:58:35.905Z",
+    "finishedAt": "2025-09-26T07:58:58.171Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 29,
+        "answered": true,
+        "correct": false,
+        "topic": "Democracy"
+      },
+      {
+        "id": 21,
+        "answered": true,
+        "correct": false,
+        "topic": "Indian History"
+      },
+      {
+        "id": 0,
+        "answered": true,
+        "correct": true,
+        "topic": "Computer Science"
+      },
+      {
+        "id": 19,
+        "answered": true,
+        "correct": true,
+        "topic": "Philosophy"
+      },
+      {
+        "id": 14,
+        "answered": true,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 6,
+        "answered": true,
+        "correct": false,
+        "topic": "Astronomy"
+      },
+      {
+        "id": 25,
+        "answered": true,
+        "correct": false,
+        "topic": "Indian Polity"
+      }
+    ],
+    "score": 2,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-26T08:03:49.182Z",
+    "finishedAt": "2025-09-26T08:04:18.589Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 13,
+        "answered": true,
+        "correct": true,
+        "topic": "Sports History"
+      },
+      {
+        "id": 11,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      },
+      {
+        "id": 16,
+        "answered": true,
+        "correct": false,
+        "topic": "World History"
+      },
+      {
+        "id": 22,
+        "answered": true,
+        "correct": true,
+        "topic": "Indian History"
+      },
+      {
+        "id": 14,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      },
+      {
+        "id": 2,
+        "answered": true,
+        "correct": false,
+        "topic": "Physics"
+      },
+      {
+        "id": 12,
+        "answered": true,
+        "correct": true,
+        "topic": "Mathematics"
+      },
+      {
+        "id": 25,
+        "answered": true,
+        "correct": true,
+        "topic": "Indian Polity"
+      },
+      {
+        "id": 21,
+        "answered": true,
+        "correct": true,
+        "topic": "Indian History"
+      },
+      {
+        "id": 27,
+        "answered": true,
+        "correct": false,
+        "topic": "Indian History"
+      }
+    ],
+    "score": 7,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-26T08:09:51.303Z",
+    "finishedAt": "2025-09-26T08:10:23.955Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 2,
+        "answered": true,
+        "correct": true,
+        "topic": "Physics"
+      }
+    ],
+    "score": 1,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-27T19:28:12.821Z",
+    "finishedAt": "2025-09-27T19:28:26.340Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 4,
+        "answered": true,
+        "correct": false,
+        "topic": "History"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-27T19:29:42.934Z",
+    "finishedAt": "2025-09-27T19:29:52.782Z"
+  }
+]

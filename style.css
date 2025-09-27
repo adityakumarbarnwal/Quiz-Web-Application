@@ -1,0 +1,279 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('Quiz.png'); /* Use local Quiz.png as background */
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(6px); /* For the glassmorphism blur effect on the body itself */
+}
+
+.quiz-container {
+    background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.18),
+        rgba(255, 255, 255, 0.10)
+    );
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(14px);
+    color: #f8fafc;
+    padding: 28px;
+    border-radius: 16px;
+    width: 92%;
+    max-width: 720px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin: 0 0 8px 0;
+    font-size: 32px;
+    background: linear-gradient(90deg, #93c5fd, #c4b5fd, #f9a8d4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#quiz {
+    margin-top: 20px;
+}
+
+#question {
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 24px; /* Larger font size for question */
+    text-align: center; /* Center align question text */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly more opaque for readability */
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    /* background-color: rgba(0, 123, 255, 0.7); */ /* Removed for linear gradient */
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); /* Linear gradient background */
+    color: #fff;
+    border: none;
+    padding: 12px 15px; /* Slightly increased padding */
+    border-radius: 25px; /* More rounded corners */
+    cursor: pointer;
+    font-size: 17px; /* Slightly larger font */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.btn:hover {
+    /* background-color: rgba(0, 86, 179, 0.7); */ /* Removed for linear gradient */
+    background: linear-gradient(to right, #2575fc 0%, #6a11cb 100%); /* Reverse gradient on hover */
+    transform: translateY(-2px); /* Lift button slightly on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+#next-btn, #restart-btn {
+    background: linear-gradient(135deg, rgba(34,197,94,0.9), rgba(22,163,74,0.9));
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 12px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    display: block;
+    margin: 20px auto 0;
+    box-shadow: 0 6px 14px rgba(22, 101, 52, 0.35);
+}
+
+#next-btn:hover, #restart-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 18px rgba(22, 101, 52, 0.45);
+}
+
+.hide {
+    display: none;
+}
+
+.correct {
+    background-color: #28a745; /* Green for correct */
+    background: linear-gradient(to right, #28a745 0%, #218838 100%); /* Green gradient */
+}
+
+.incorrect {
+    background-color: #dc3545; /* Red for incorrect */
+    background: linear-gradient(to right, #dc3545 0%, #c82333 100%); /* Red gradient */
+}
+
+/* Preserve color on hover/focus/disabled when answered */
+.btn.correct,
+.btn.correct:hover,
+.btn.correct:focus,
+.btn.correct:disabled {
+    background: linear-gradient(to right, #28a745 0%, #218838 100%);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: none;
+}
+
+.btn.incorrect,
+.btn.incorrect:hover,
+.btn.incorrect:focus,
+.btn.incorrect:disabled {
+    background: linear-gradient(to right, #dc3545 0%, #c82333 100%);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: none;
+}
+
+.btn:disabled {
+    cursor: default;
+    opacity: 0.95; /* Keep strong color visibility */
+}
+
+#timer {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 10px;
+    color: #f8fafc;
+}
+
+
+/* Start Screen */
+.start-screen {
+    text-align: center;
+    padding: 24px 8px;
+}
+
+.tagline {
+    color: #cbd5e1;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+.primary-btn {
+    background: linear-gradient(135deg, rgba(59,130,246,0.95), rgba(99,102,241,0.95));
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 12px 26px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 8px 18px rgba(30, 64, 175, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.primary-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 12px 22px rgba(30, 64, 175, 0.45);
+}
+
+/* Results Charts */
+.charts-container {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.charts-container.single-column {
+    grid-template-columns: 1fr !important;
+    grid-auto-flow: row;
+}
+
+/* Extra enforcement for stats page container */
+#global-charts {
+    grid-template-columns: 1fr !important;
+}
+#global-charts .charts-row {
+    grid-template-columns: 1fr !important;
+}
+
+.chart-card {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.22);
+    border-radius: 12px;
+    padding: 14px;
+    width: 100%;
+}
+
+.chart-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.q-index {
+    background: rgba(59,130,246,0.85);
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-weight: 600;
+}
+
+.q-text {
+    flex: 1;
+}
+
+.q-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.charts-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+}
+
+.chart-box {
+    background: rgba(0,0,0,0.12);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Smaller charts for Global Stats */
+.charts-container.single-column .chart-box {
+    max-width: 240px; /* allow space for 200px canvas + padding */
+    margin: 0 auto; /* center */
+}
+
+.charts-container.single-column .chart-box canvas {
+    width: 200px !important;
+    height: 200px !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.error {
+    color: #fecaca;
+    text-align: center;
+}
+
+@media (min-width: 760px) {
+    .charts-container:not(.single-column) {
+        grid-template-columns: 1fr 1fr;
+    }
+    .charts-row {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+

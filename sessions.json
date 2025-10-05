@@ -501,5 +501,1476 @@
     "totalQuestions": 10,
     "startedAt": "2025-09-27T19:29:42.934Z",
     "finishedAt": "2025-09-27T19:29:52.782Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 6,
+        "answered": true,
+        "correct": true,
+        "topic": "Astronomy"
+      }
+    ],
+    "score": 1,
+    "totalQuestions": 10,
+    "startedAt": "2025-09-27T19:51:10.296Z",
+    "finishedAt": "2025-09-27T19:51:16.359Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 31,
+        "answered": false,
+        "correct": false,
+        "topic": "Mathematics"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:18:47.319Z",
+    "finishedAt": "2025-10-04T14:19:23.097Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:19:36.502Z",
+    "finishedAt": "2025-10-04T14:19:46.200Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:22:17.015Z",
+    "finishedAt": "2025-10-04T14:22:28.592Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 34,
+        "answered": false,
+        "correct": false,
+        "topic": "Chemistry"
+      },
+      {
+        "id": 32,
+        "answered": false,
+        "correct": false,
+        "topic": "Physics"
+      },
+      {
+        "id": 33,
+        "answered": false,
+        "correct": false,
+        "topic": "Mathematics"
+      },
+      {
+        "id": 31,
+        "answered": false,
+        "correct": false,
+        "topic": "Mathematics"
+      },
+      {
+        "id": 12,
+        "answered": false,
+        "correct": false,
+        "topic": "Mathematics"
+      },
+      {
+        "id": 10,
+        "answered": false,
+        "correct": false,
+        "topic": "Art"
+      },
+      {
+        "id": 37,
+        "answered": false,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 36,
+        "answered": false,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 40,
+        "answered": false,
+        "correct": false,
+        "topic": "Distributed Systems"
+      },
+      {
+        "id": 39,
+        "answered": false,
+        "correct": false,
+        "topic": "Databases"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:29:43.041Z",
+    "finishedAt": "2025-10-04T14:31:23.213Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 9,
+        "answered": false,
+        "correct": false,
+        "topic": "Environment"
+      },
+      {
+        "id": 8,
+        "answered": false,
+        "correct": false,
+        "topic": "Geography"
+      },
+      {
+        "id": 17,
+        "answered": false,
+        "correct": false,
+        "topic": "Computer Networks"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:43:41.368Z",
+    "finishedAt": "2025-10-04T14:44:31.219Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:45:47.164Z",
+    "finishedAt": "2025-10-04T14:45:50.839Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 31,
+        "answered": true,
+        "correct": false,
+        "topic": "Mathematics"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:46:14.124Z",
+    "finishedAt": "2025-10-04T14:46:22.715Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:47:00.140Z",
+    "finishedAt": "2025-10-04T14:47:05.281Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 1,
+    "startedAt": "2025-10-04T14:48:07.874Z",
+    "finishedAt": "2025-10-04T14:48:09.620Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 1,
+    "startedAt": "2025-10-04T14:48:13.132Z",
+    "finishedAt": "2025-10-04T14:48:15.060Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 4,
+    "startedAt": "2025-10-04T14:48:23.475Z",
+    "finishedAt": "2025-10-04T14:48:25.501Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 4,
+    "startedAt": "2025-10-04T14:48:30.680Z",
+    "finishedAt": "2025-10-04T14:48:33.866Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 4,
+    "startedAt": "2025-10-04T14:49:23.835Z",
+    "finishedAt": "2025-10-04T14:49:26.882Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 1,
+    "startedAt": "2025-10-04T14:50:02.171Z",
+    "finishedAt": "2025-10-04T14:50:03.450Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 4,
+    "startedAt": "2025-10-04T14:50:09.744Z",
+    "finishedAt": "2025-10-04T14:50:12.817Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:50:25.037Z",
+    "finishedAt": "2025-10-04T14:50:30.934Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:50:56.215Z",
+    "finishedAt": "2025-10-04T14:51:12.640Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 4,
+    "startedAt": "2025-10-04T14:53:47.172Z",
+    "finishedAt": "2025-10-04T14:53:52.019Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 4,
+    "startedAt": "2025-10-04T14:54:12.608Z",
+    "finishedAt": "2025-10-04T14:54:18.987Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 4,
+    "startedAt": "2025-10-04T14:54:21.507Z",
+    "finishedAt": "2025-10-04T14:54:24.666Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 1,
+    "startedAt": "2025-10-04T14:54:30.326Z",
+    "finishedAt": "2025-10-04T14:54:31.297Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 4,
+    "startedAt": "2025-10-04T14:54:34.616Z",
+    "finishedAt": "2025-10-04T14:54:36.646Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 1,
+    "startedAt": "2025-10-04T14:54:58.109Z",
+    "finishedAt": "2025-10-04T14:54:59.399Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 1,
+    "startedAt": "2025-10-04T14:55:01.620Z",
+    "finishedAt": "2025-10-04T14:55:04.784Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 31,
+        "answered": false,
+        "correct": false,
+        "topic": "Chemistry"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 1,
+    "startedAt": "2025-10-04T14:55:06.672Z",
+    "finishedAt": "2025-10-04T14:55:17.626Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:59:44.314Z",
+    "finishedAt": "2025-10-04T14:59:51.779Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T14:59:54.890Z",
+    "finishedAt": "2025-10-04T15:00:06.245Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T15:00:08.532Z",
+    "finishedAt": "2025-10-04T15:00:19.885Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T15:00:23.906Z",
+    "finishedAt": "2025-10-04T15:00:36.877Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T15:01:15.190Z",
+    "finishedAt": "2025-10-04T15:01:22.147Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 40,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 31,
+        "answered": true,
+        "correct": false,
+        "topic": "Chemistry"
+      },
+      {
+        "id": 42,
+        "answered": true,
+        "correct": true,
+        "topic": "Geography"
+      },
+      {
+        "id": 47,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 43,
+        "answered": true,
+        "correct": true,
+        "topic": "Indian History"
+      },
+      {
+        "id": 45,
+        "answered": true,
+        "correct": true,
+        "topic": "Environment"
+      },
+      {
+        "id": 46,
+        "answered": true,
+        "correct": true,
+        "topic": "Indian Culture"
+      },
+      {
+        "id": 41,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 44,
+        "answered": true,
+        "correct": true,
+        "topic": "Earth Science"
+      },
+      {
+        "id": 48,
+        "answered": true,
+        "correct": true,
+        "topic": "Earth Science"
+      }
+    ],
+    "score": 9,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T15:01:36.331Z",
+    "finishedAt": "2025-10-04T15:02:27.540Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 45,
+        "answered": true,
+        "correct": true,
+        "topic": "Environment"
+      },
+      {
+        "id": 47,
+        "answered": true,
+        "correct": false,
+        "topic": "Biology"
+      },
+      {
+        "id": 42,
+        "answered": true,
+        "correct": true,
+        "topic": "Geography"
+      },
+      {
+        "id": 62,
+        "answered": true,
+        "correct": true,
+        "topic": "Chemistry"
+      },
+      {
+        "id": 44,
+        "answered": true,
+        "correct": true,
+        "topic": "Earth Science"
+      },
+      {
+        "id": 46,
+        "answered": true,
+        "correct": true,
+        "topic": "Indian Culture"
+      },
+      {
+        "id": 64,
+        "answered": true,
+        "correct": false,
+        "topic": "Astronomy"
+      },
+      {
+        "id": 48,
+        "answered": true,
+        "correct": true,
+        "topic": "Earth Science"
+      },
+      {
+        "id": 63,
+        "answered": true,
+        "correct": false,
+        "topic": "Indian Geography"
+      },
+      {
+        "id": 40,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      }
+    ],
+    "score": 7,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T15:20:26.110Z",
+    "finishedAt": "2025-10-04T15:21:07.951Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 52,
+        "answered": true,
+        "correct": true,
+        "topic": "Algorithms"
+      },
+      {
+        "id": 32,
+        "answered": true,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 72,
+        "answered": true,
+        "correct": false,
+        "topic": "Machine Learning"
+      },
+      {
+        "id": 33,
+        "answered": true,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 49,
+        "answered": true,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 53,
+        "answered": true,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 73,
+        "answered": true,
+        "correct": false,
+        "topic": "Data Structures"
+      },
+      {
+        "id": 78,
+        "answered": true,
+        "correct": false,
+        "topic": "Algorithms"
+      },
+      {
+        "id": 80,
+        "answered": true,
+        "correct": true,
+        "topic": "ML"
+      }
+    ],
+    "score": 2,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T15:21:22.992Z",
+    "finishedAt": "2025-10-04T15:22:13.907Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T15:22:35.756Z",
+    "finishedAt": "2025-10-04T15:22:41.723Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 55,
+        "answered": false,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 83,
+        "answered": false,
+        "correct": false,
+        "topic": "Security"
+      },
+      {
+        "id": 36,
+        "answered": false,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 81,
+        "answered": false,
+        "correct": false,
+        "topic": "Distributed Systems"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T15:30:12.979Z",
+    "finishedAt": "2025-10-04T15:31:04.672Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T15:33:15.125Z",
+    "finishedAt": "2025-10-04T15:33:22.352Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T15:38:27.633Z",
+    "finishedAt": "2025-10-04T15:38:36.634Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 73,
+        "answered": true,
+        "correct": true,
+        "topic": "Data Structures"
+      },
+      {
+        "id": 28,
+        "answered": true,
+        "correct": false,
+        "topic": "Indian History"
+      },
+      {
+        "id": 8,
+        "answered": true,
+        "correct": false,
+        "topic": "Geography"
+      },
+      {
+        "id": 90,
+        "answered": true,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 29,
+        "answered": true,
+        "correct": true,
+        "topic": "Democracy"
+      },
+      {
+        "id": 13,
+        "answered": true,
+        "correct": false,
+        "topic": "Sports History"
+      },
+      {
+        "id": 3,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 88,
+        "answered": true,
+        "correct": true,
+        "topic": "Caching"
+      }
+    ],
+    "score": 4,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-04T15:38:52.573Z",
+    "finishedAt": "2025-10-04T15:39:43.635Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 72,
+        "answered": false,
+        "correct": false,
+        "topic": "Machine Learning"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T07:32:05.678Z",
+    "finishedAt": "2025-10-05T07:32:19.361Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 90,
+        "answered": true,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 36,
+        "answered": true,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 57,
+        "answered": true,
+        "correct": false,
+        "topic": "Cloud Native"
+      },
+      {
+        "id": 81,
+        "answered": true,
+        "correct": false,
+        "topic": "Distributed Systems"
+      },
+      {
+        "id": 82,
+        "answered": true,
+        "correct": false,
+        "topic": "DevOps"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T07:32:25.712Z",
+    "finishedAt": "2025-10-05T07:33:05.592Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 10,
+        "answered": true,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 16,
+        "answered": true,
+        "correct": true,
+        "topic": "Algorithms"
+      },
+      {
+        "id": 11,
+        "answered": true,
+        "correct": true,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 18,
+        "answered": true,
+        "correct": false,
+        "topic": "Operating Systems"
+      },
+      {
+        "id": 13,
+        "answered": false,
+        "correct": false,
+        "topic": "Machine Learning Theory"
+      },
+      {
+        "id": 14,
+        "answered": true,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 12,
+        "answered": true,
+        "correct": true,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 17,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      }
+    ],
+    "score": 4,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T07:50:08.930Z",
+    "finishedAt": "2025-10-05T07:51:02.367Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T07:51:46.998Z",
+    "finishedAt": "2025-10-05T07:52:00.197Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 17,
+        "answered": false,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 18,
+        "answered": false,
+        "correct": false,
+        "topic": "Operating Systems"
+      },
+      {
+        "id": 12,
+        "answered": false,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 16,
+        "answered": false,
+        "correct": false,
+        "topic": "Algorithms"
+      },
+      {
+        "id": 15,
+        "answered": false,
+        "correct": false,
+        "topic": "Deep Learning"
+      },
+      {
+        "id": 14,
+        "answered": false,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 19,
+        "answered": false,
+        "correct": false,
+        "topic": "Deep Learning"
+      },
+      {
+        "id": 13,
+        "answered": false,
+        "correct": false,
+        "topic": "Machine Learning Theory"
+      },
+      {
+        "id": 11,
+        "answered": false,
+        "correct": false,
+        "topic": "AI/ML"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T07:52:03.664Z",
+    "finishedAt": "2025-10-05T07:59:22.453Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T07:59:58.724Z",
+    "finishedAt": "2025-10-05T08:00:07.547Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 68,
+        "answered": true,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 46,
+        "answered": true,
+        "correct": false,
+        "topic": "Operating Systems"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T08:00:12.370Z",
+    "finishedAt": "2025-10-05T08:00:31.935Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 42,
+        "answered": true,
+        "correct": false,
+        "topic": "Data Structures"
+      },
+      {
+        "id": 10,
+        "answered": true,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 13,
+        "answered": true,
+        "correct": false,
+        "topic": "Machine Learning Theory"
+      },
+      {
+        "id": 48,
+        "answered": true,
+        "correct": false,
+        "topic": "Deep Learning"
+      },
+      {
+        "id": 44,
+        "answered": true,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 46,
+        "answered": true,
+        "correct": false,
+        "topic": "Operating Systems"
+      },
+      {
+        "id": 43,
+        "answered": true,
+        "correct": false,
+        "topic": "Networking"
+      }
+    ],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T08:01:33.764Z",
+    "finishedAt": "2025-10-05T08:02:07.579Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 48,
+        "answered": true,
+        "correct": true,
+        "topic": "Deep Learning"
+      },
+      {
+        "id": 17,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      },
+      {
+        "id": 67,
+        "answered": true,
+        "correct": false,
+        "topic": "Machine Learning"
+      },
+      {
+        "id": 14,
+        "answered": true,
+        "correct": true,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 10,
+        "answered": true,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 11,
+        "answered": true,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 13,
+        "answered": true,
+        "correct": true,
+        "topic": "Machine Learning Theory"
+      },
+      {
+        "id": 47,
+        "answered": true,
+        "correct": false,
+        "topic": "Algorithms"
+      },
+      {
+        "id": 18,
+        "answered": true,
+        "correct": false,
+        "topic": "Operating Systems"
+      },
+      {
+        "id": 16,
+        "answered": true,
+        "correct": false,
+        "topic": "Algorithms"
+      }
+    ],
+    "score": 4,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T08:02:22.750Z",
+    "finishedAt": "2025-10-05T08:03:39.202Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 43,
+        "answered": true,
+        "correct": true,
+        "topic": "Networking"
+      },
+      {
+        "id": 45,
+        "answered": true,
+        "correct": false,
+        "topic": "ML"
+      },
+      {
+        "id": 10,
+        "answered": true,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 16,
+        "answered": true,
+        "correct": true,
+        "topic": "Algorithms"
+      },
+      {
+        "id": 11,
+        "answered": true,
+        "correct": false,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 68,
+        "answered": true,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 12,
+        "answered": true,
+        "correct": true,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 47,
+        "answered": true,
+        "correct": false,
+        "topic": "Algorithms"
+      },
+      {
+        "id": 19,
+        "answered": true,
+        "correct": true,
+        "topic": "Deep Learning"
+      },
+      {
+        "id": 17,
+        "answered": true,
+        "correct": true,
+        "topic": "Databases"
+      }
+    ],
+    "score": 5,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T08:04:02.131Z",
+    "finishedAt": "2025-10-05T08:04:40.901Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 43,
+        "answered": true,
+        "correct": true,
+        "topic": "Networking"
+      },
+      {
+        "id": 14,
+        "answered": true,
+        "correct": true,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 15,
+        "answered": true,
+        "correct": true,
+        "topic": "Deep Learning"
+      },
+      {
+        "id": 42,
+        "answered": true,
+        "correct": true,
+        "topic": "Data Structures"
+      },
+      {
+        "id": 48,
+        "answered": true,
+        "correct": true,
+        "topic": "Deep Learning"
+      },
+      {
+        "id": 10,
+        "answered": true,
+        "correct": true,
+        "topic": "AI/ML"
+      },
+      {
+        "id": 49,
+        "answered": true,
+        "correct": false,
+        "topic": "ML"
+      },
+      {
+        "id": 19,
+        "answered": true,
+        "correct": true,
+        "topic": "Deep Learning"
+      },
+      {
+        "id": 18,
+        "answered": true,
+        "correct": true,
+        "topic": "Operating Systems"
+      }
+    ],
+    "score": 8,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T08:04:45.551Z",
+    "finishedAt": "2025-10-05T08:05:20.239Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 15,
+        "answered": false,
+        "correct": false,
+        "topic": "Deep Learning"
+      },
+      {
+        "id": 65,
+        "answered": true,
+        "correct": true,
+        "topic": "Machine Learning"
+      },
+      {
+        "id": 47,
+        "answered": true,
+        "correct": true,
+        "topic": "Algorithms"
+      },
+      {
+        "id": 12,
+        "answered": true,
+        "correct": false,
+        "topic": "AI/ML"
+      }
+    ],
+    "score": 2,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T08:28:28.959Z",
+    "finishedAt": "2025-10-05T10:04:33.558Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T10:04:43.346Z",
+    "finishedAt": "2025-10-05T10:04:51.796Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T10:04:55.569Z",
+    "finishedAt": "2025-10-05T10:05:04.813Z"
+  },
+  {
+    "answers": [],
+    "score": 0,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T10:05:13.324Z",
+    "finishedAt": "2025-10-05T10:05:19.828Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 31,
+        "answered": true,
+        "correct": true,
+        "topic": "Chemistry"
+      },
+      {
+        "id": 39,
+        "answered": true,
+        "correct": false,
+        "topic": "Science"
+      },
+      {
+        "id": 0,
+        "answered": true,
+        "correct": false,
+        "topic": "Biology"
+      },
+      {
+        "id": 1,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 6,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 37,
+        "answered": true,
+        "correct": false,
+        "topic": "Earth Science"
+      },
+      {
+        "id": 33,
+        "answered": true,
+        "correct": true,
+        "topic": "Astronomy"
+      },
+      {
+        "id": 2,
+        "answered": true,
+        "correct": true,
+        "topic": "Geography"
+      },
+      {
+        "id": 62,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 60,
+        "answered": true,
+        "correct": true,
+        "topic": "Earth Science"
+      }
+    ],
+    "score": 7,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T10:19:56.377Z",
+    "finishedAt": "2025-10-05T10:20:38.258Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 61,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 38,
+        "answered": true,
+        "correct": true,
+        "topic": "World Geography"
+      },
+      {
+        "id": 3,
+        "answered": true,
+        "correct": true,
+        "topic": "Indian History"
+      },
+      {
+        "id": 31,
+        "answered": true,
+        "correct": true,
+        "topic": "Chemistry"
+      },
+      {
+        "id": 5,
+        "answered": true,
+        "correct": true,
+        "topic": "Environment"
+      },
+      {
+        "id": 1,
+        "answered": true,
+        "correct": false,
+        "topic": "Biology"
+      },
+      {
+        "id": 9,
+        "answered": true,
+        "correct": true,
+        "topic": "Indian Culture"
+      },
+      {
+        "id": 34,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 36,
+        "answered": true,
+        "correct": false,
+        "topic": "Biology"
+      }
+    ],
+    "score": 7,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T10:20:49.978Z",
+    "finishedAt": "2025-10-05T10:21:28.551Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 37,
+        "answered": true,
+        "correct": true,
+        "topic": "Earth Science"
+      },
+      {
+        "id": 64,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 60,
+        "answered": true,
+        "correct": true,
+        "topic": "Earth Science"
+      },
+      {
+        "id": 1,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 33,
+        "answered": true,
+        "correct": true,
+        "topic": "Astronomy"
+      },
+      {
+        "id": 6,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 30,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      },
+      {
+        "id": 3,
+        "answered": true,
+        "correct": true,
+        "topic": "Indian History"
+      },
+      {
+        "id": 36,
+        "answered": true,
+        "correct": false,
+        "topic": "Biology"
+      },
+      {
+        "id": 61,
+        "answered": true,
+        "correct": true,
+        "topic": "Biology"
+      }
+    ],
+    "score": 9,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T10:30:54.545Z",
+    "finishedAt": "2025-10-05T10:31:37.889Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 24,
+        "answered": true,
+        "correct": false,
+        "topic": "DevOps"
+      },
+      {
+        "id": 20,
+        "answered": true,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 3,
+        "answered": true,
+        "correct": true,
+        "topic": "Indian History"
+      },
+      {
+        "id": 37,
+        "answered": true,
+        "correct": true,
+        "topic": "Earth Science"
+      },
+      {
+        "id": 18,
+        "answered": true,
+        "correct": true,
+        "topic": "Operating Systems"
+      },
+      {
+        "id": 47,
+        "answered": true,
+        "correct": true,
+        "topic": "Algorithms"
+      },
+      {
+        "id": 41,
+        "answered": true,
+        "correct": true,
+        "topic": "Machine Learning"
+      },
+      {
+        "id": 66,
+        "answered": true,
+        "correct": false,
+        "topic": "NLP"
+      },
+      {
+        "id": 23,
+        "answered": true,
+        "correct": false,
+        "topic": "Web Security"
+      },
+      {
+        "id": 71,
+        "answered": true,
+        "correct": true,
+        "topic": "DevOps"
+      }
+    ],
+    "score": 6,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T10:31:58.746Z",
+    "finishedAt": "2025-10-05T10:32:41.883Z"
+  },
+  {
+    "answers": [
+      {
+        "id": 21,
+        "answered": true,
+        "correct": false,
+        "topic": "Distributed Systems"
+      },
+      {
+        "id": 56,
+        "answered": true,
+        "correct": false,
+        "topic": "Web Security"
+      },
+      {
+        "id": 74,
+        "answered": true,
+        "correct": false,
+        "topic": "Web Performance"
+      },
+      {
+        "id": 26,
+        "answered": true,
+        "correct": false,
+        "topic": "Databases"
+      },
+      {
+        "id": 70,
+        "answered": true,
+        "correct": false,
+        "topic": "Web"
+      },
+      {
+        "id": 24,
+        "answered": true,
+        "correct": true,
+        "topic": "DevOps"
+      },
+      {
+        "id": 23,
+        "answered": true,
+        "correct": true,
+        "topic": "Web Security"
+      },
+      {
+        "id": 29,
+        "answered": true,
+        "correct": false,
+        "topic": "Distributed Databases"
+      },
+      {
+        "id": 28,
+        "answered": true,
+        "correct": false,
+        "topic": "Messaging"
+      },
+      {
+        "id": 72,
+        "answered": true,
+        "correct": true,
+        "topic": "Cloud Native"
+      }
+    ],
+    "score": 3,
+    "totalQuestions": 10,
+    "startedAt": "2025-10-05T10:42:40.024Z",
+    "finishedAt": "2025-10-05T10:43:24.571Z"
   }
 ]

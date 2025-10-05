@@ -11,7 +11,7 @@ A modern quiz app with a glassmorphism UI, local background image, AI-enhanced (
 
 - `index.html` — Frontend UI.
 - `style.css` — Styling.
-- `script.js` — Quiz logic, analysis rendering, requests to backend.
+- `script.js` — Quiz logic, requests to backend.
 - `server.js` — Express server, static file serving.
 - `package.json` — Node project metadata and dependencies.
 

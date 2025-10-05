@@ -6,10 +6,10 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-image: url('Quiz.png'); /* Use local Quiz.png as background */
+    background-image: url('Quiz.png');
     background-size: cover;
     background-position: center;
-    backdrop-filter: blur(6px); /* For the glassmorphism blur effect on the body itself */
+    backdrop-filter: blur(6px);
 }
 
 .quiz-container {
@@ -48,9 +48,9 @@ h1 {
 #question {
     margin-bottom: 25px;
     color: #fff;
-    font-size: 24px; /* Larger font size for question */
-    text-align: center; /* Center align question text */
-    background-color: rgba(255, 255, 255, 0.1); /* Slightly more opaque for readability */
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 15px;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -65,23 +65,21 @@ h1 {
 }
 
 .btn {
-    /* background-color: rgba(0, 123, 255, 0.7); */ /* Removed for linear gradient */
-    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); /* Linear gradient background */
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
     color: #fff;
     border: none;
-    padding: 12px 15px; /* Slightly increased padding */
-    border-radius: 25px; /* More rounded corners */
+    padding: 12px 15px;
+    border-radius: 25px;
     cursor: pointer;
-    font-size: 17px; /* Slightly larger font */
-    transition: all 0.3s ease; /* Smooth transition for all properties */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    font-size: 17px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
-    /* background-color: rgba(0, 86, 179, 0.7); */ /* Removed for linear gradient */
-    background: linear-gradient(to right, #2575fc 0%, #6a11cb 100%); /* Reverse gradient on hover */
-    transform: translateY(-2px); /* Lift button slightly on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    background: linear-gradient(to right, #2575fc 0%, #6a11cb 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 #next-btn, #restart-btn {
@@ -107,16 +105,15 @@ h1 {
 }
 
 .correct {
-    background-color: #28a745; /* Green for correct */
-    background: linear-gradient(to right, #28a745 0%, #218838 100%); /* Green gradient */
+    background-color: #28a745;
+    background: linear-gradient(to right, #28a745 0%, #218838 100%);
 }
 
 .incorrect {
-    background-color: #dc3545; /* Red for incorrect */
-    background: linear-gradient(to right, #dc3545 0%, #c82333 100%); /* Red gradient */
+    background-color: #dc3545;
+    background: linear-gradient(to right, #dc3545 0%, #c82333 100%);
 }
 
-/* Preserve color on hover/focus/disabled when answered */
 .btn.correct,
 .btn.correct:hover,
 .btn.correct:focus,
@@ -139,7 +136,7 @@ h1 {
 
 .btn:disabled {
     cursor: default;
-    opacity: 0.95; /* Keep strong color visibility */
+    opacity: 0.95;
 }
 
 #timer {
@@ -163,6 +160,10 @@ h1 {
     font-size: 15px;
 }
 
+.level-selected {
+    color: #ffffff !important;
+}
+
 .primary-btn {
     background: linear-gradient(135deg, rgba(59,130,246,0.95), rgba(99,102,241,0.95));
     color: #ffffff;
@@ -173,6 +174,7 @@ h1 {
     font-size: 18px;
     box-shadow: 0 8px 18px rgba(30, 64, 175, 0.35);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-family: "Century Gothic", "Segoe UI", Arial, sans-serif;
 }
 
 .primary-btn:hover {
@@ -180,7 +182,11 @@ h1 {
     box-shadow: 0 12px 22px rgba(30, 64, 175, 0.45);
 }
 
-/* Results Charts */
+.level-buttons .primary-btn.active {
+    outline: 2px solid #93c5fd;
+    box-shadow: 0 0 0 3px rgba(147, 197, 253, 0.35), 0 8px 18px rgba(30, 64, 175, 0.35);
+}
+
 .charts-container {
     margin-top: 24px;
     display: grid;
@@ -193,7 +199,6 @@ h1 {
     grid-auto-flow: row;
 }
 
-/* Extra enforcement for stats page container */
 #global-charts {
     grid-template-columns: 1fr !important;
 }
@@ -207,6 +212,7 @@ h1 {
     border-radius: 12px;
     padding: 14px;
     width: 100%;
+    position: relative;
 }
 
 .chart-header {
@@ -249,10 +255,9 @@ h1 {
     padding: 10px;
 }
 
-/* Smaller charts for Global Stats */
 .charts-container.single-column .chart-box {
-    max-width: 240px; /* allow space for 200px canvas + padding */
-    margin: 0 auto; /* center */
+    max-width: 240px;
+    margin: 0 auto;
 }
 
 .charts-container.single-column .chart-box canvas {
@@ -260,6 +265,18 @@ h1 {
     height: 200px !important;
     display: block;
     margin: 0 auto;
+}
+
+.correct-answer-br {
+    position: absolute;
+    right: 12px;
+    bottom: 10px;
+    font-size: 12px;
+    color: #e5e7eb;
+    background: rgba(0,0,0,0.15);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 6px;
+    padding: 4px 8px;
 }
 
 .error {

@@ -1,4 +1,3 @@
-/* global Chart */
 (async function init() {
   const chartsContainer = document.getElementById('global-charts');
 
@@ -23,34 +22,29 @@
     const qTextById = new Map(questions.map(q => [q.id, q.question]));
     const correctById = new Map((Array.isArray(correctAnswers) ? correctAnswers : []).map(a => [a.id, a.answer]));
 
-    // 1) Try server aggregates
     let statsById = null;
     try {
       const globalRes = await fetchJSON('/api/global-stats');
       statsById = globalRes?.stats || null;
-    } catch (_) { /* no-op */ }
+    } catch (_) {}
 
-    // 2) If missing or empty, try computing from server sessions
     if (!statsById || Object.keys(statsById).length === 0) {
       try {
         const sessionsRes = await fetchJSON('/api/sessions');
         const sessions = Array.isArray(sessionsRes?.sessions) ? sessionsRes.sessions : [];
         statsById = aggregateFromSessions(sessions);
-      } catch (_) { /* no-op */ }
+      } catch (_) {}
     }
 
-    // 3) If still missing, use localStorage
     if (!statsById || Object.keys(statsById).length === 0) {
       try {
         const raw = localStorage.getItem('quiz_sessions_local');
         const sessions = raw ? JSON.parse(raw) : [];
         statsById = aggregateFromSessions(sessions);
-      } catch (_) { /* no-op */ }
+      } catch (_) {}
     }
 
     chartsContainer.innerHTML = '';
-
-    // Load current user's most recent local session (for per-question status)
     let lastLocalSession = null;
     try {
       const raw = localStorage.getItem('quiz_sessions_local');
@@ -58,19 +52,26 @@
       if (Array.isArray(sessions) && sessions.length > 0) {
         lastLocalSession = sessions[sessions.length - 1];
       }
-    } catch (_) { /* ignore */ }
+    } catch (_) {}
 
-    // Determine which questions to show
     let allIds = questions.map(q => q.id);
     try {
       const rawIds = localStorage.getItem('last_displayed_question_ids');
       const lastIds = rawIds ? JSON.parse(rawIds) : null;
-      if (Array.isArray(lastIds) && lastIds.length > 0) {
-        const set = new Set(lastIds);
-        allIds = allIds.filter(id => set.has(id));
+      const rawQ = localStorage.getItem('last_displayed_questions');
+      const lastQ = rawQ ? JSON.parse(rawQ) : null;
+      const rawC = localStorage.getItem('last_displayed_correct_answers');
+      const lastC = rawC ? JSON.parse(rawC) : null;
+      if (Array.isArray(lastQ)) {
+        lastQ.forEach(item => { if (item && typeof item.id === 'number' && item.question) qTextById.set(item.id, item.question); });
       }
-    } catch (_) { /* use all questions */ }
-    // Register datalabels plugin if available
+      if (Array.isArray(lastC)) {
+        lastC.forEach(item => { if (item && typeof item.id === 'number') correctById.set(item.id, item.answer || ''); });
+      }
+      if (Array.isArray(lastIds) && lastIds.length > 0) {
+        allIds = lastIds;
+      }
+    } catch (_) {}
     try { Chart.register(window.ChartDataLabels || ChartDataLabels); } catch (_) {}
 
     allIds.forEach((id, idx) => {
@@ -81,7 +82,6 @@
       const correctPct = totalAnswered > 0 ? Math.round((stats.correct / totalAnswered) * 100) : 0;
       const incorrectPct = totalAnswered > 0 ? Math.round((stats.incorrect / totalAnswered) * 100) : 0;
 
-      // Current user's status for this question
       let userStatus = 'Unattempted';
       if (lastLocalSession && Array.isArray(lastLocalSession.answers)) {
         const a = lastLocalSession.answers.find(x => x && x.id === id);
@@ -90,7 +90,6 @@
           else userStatus = a.correct ? 'Correct' : 'Incorrect';
         }
       }
-
       const card = el('div', 'chart-card');
       const correctAnsText = correctById.get(id) || '';
       card.innerHTML = `
@@ -99,13 +98,13 @@
           <div class="q-text">${qText}</div>
         </div>
         <div class="q-meta">
-          <span class="pct">Correct: ${correctPct}% • Incorrect: ${incorrectPct}%</span>
-          <span class="status">You: ${userStatus}</span>
+          <span class="pct"><span style="color:#ffffff">Correct</span>: <span style="color:#22c55e">${correctPct}%</span> • <span style="color:#ffffff">Incorrect</span>: <span style="color:#ef4444">${incorrectPct}%</span></span>
+          <span class="status" style="color:#ffffff">You: ${userStatus}</span>
         </div>
-        ${correctAnsText ? `<div class="q-meta"><span class="status"><strong>Correct answer:</strong> ${correctAnsText}</span></div>` : ''}
         <div class="charts-row">
           <div class="chart-box"><canvas id="g-pie-${id}"></canvas></div>
         </div>
+        ${correctAnsText ? `<div class="correct-answer-br"><strong>Correct answer:</strong> ${correctAnsText}</div>` : ''}
       `;
       chartsContainer.appendChild(card);
 
@@ -118,7 +117,7 @@
         },
         options: {
           plugins: {
-            legend: { position: 'bottom' },
+            legend: { position: 'bottom', labels: { color: '#ffffff' } },
             datalabels: {
               color: '#fff',
               font: { weight: '600' },

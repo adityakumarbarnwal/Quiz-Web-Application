@@ -31,3 +31,5 @@ A modern quiz app with a glassmorphism UI, local background image, AI-enhanced (
    npm start
    ```
    Open http://localhost:3000 in your browser.
+
+Quiz is also live at https://adityakumarbarnwal.github.io/Quiz-Web-Application/

@@ -1,6 +1,6 @@
-# Quiz Website with AI Analysis and Email Reports
+# Quiz Website with Analysis
 
-A modern quiz app with a glassmorphism UI, local background image, AI-enhanced (or heuristic) analysis, and email delivery of the report.
+A modern quiz app with a glassmorphism UI, local background image, and analysis of the report.
 
 ## Features
 
